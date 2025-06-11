@@ -1,0 +1,12 @@
+export { default as BarChart } from "./BarChart";
+export { default as BoxPlot } from "./BoxPlot";
+export { default as BumpChart } from "./BumpChart";
+export { default as HeatMap } from "./HeatMap";
+export { default as Histogram } from "./Histogram";
+export { default as Map } from "./Map";
+export { default as PackedBubble } from "./PackedBubble";
+export { default as ParetoChart } from "./paretoChart";
+export { default as SankeyChart } from "./sankeyChart";
+export { default as TreeMap } from "./TreeMap";
+export { default as WaffleChart } from "./WaffleChart";
+export { default as WaterfallChart } from "./waterfallChart";
