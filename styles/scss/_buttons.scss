@@ -1,0 +1,124 @@
+// index
+.login-b {
+  width: 132.05px;
+  height: 48px;
+  font-weight: 600 !important;
+  background: $white !important;
+  letter-spacing: 0.5px;
+  color: #0076ff !important;
+  text-transform: capitalize;
+}
+
+.login-c {
+  width: 319px;
+  height: 48px;
+  font-weight: 600 !important;
+  background: $white !important;
+  letter-spacing: 0.5px;
+  color: #0076ff !important;
+  text-transform: capitalize;
+}
+.login-ib {
+  width: 132.05px;
+  height: 48px;
+  font-weight: 600 !important;
+  color: $white !important;
+  letter-spacing: 0.5px;
+  background: #0076ff !important;
+  text-transform: capitalize;
+}
+
+.login-ic {
+  width: 319px;
+  height: 48px;
+  font-weight: 600 !important;
+  color: $white !important;
+  letter-spacing: 0.5px;
+  background: #0076ff !important;
+  text-transform: capitalize;
+}
+
+// connections
+.configure-b {
+  color: $white !important;
+  background-color: $dblue !important;
+  border: 1px solid $dblue !important;
+}
+.test-b {
+  color: $white !important;
+  background-color: $dblue !important;
+}
+.success-b {
+  color: $success-green !important;
+  margin-right: 20px !important;
+}
+.failed-b {
+  color: $error-red !important;
+  margin-right: 20px !important;
+}
+// query - csv download
+.save-q-b {
+  color: $dblue !important;
+  border: 0.5px solid $dblue !important;
+  background-color: white !important;
+  // padding-top: 6px !important;
+  margin-right: 4px !important;
+}
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+  color: white !important;
+  background-color: #0076ff !important;
+  border-color: #0076ff !important;
+}
+.sort {
+  color: #000;
+  opacity: 0.6;
+}
+.tooltip-inner {
+  text-align: left !important;
+}
+.disabled-item {
+  color: #d4d4d4;
+}
+.disabled-item-hover.menu-item.list-group-item:hover {
+  background-color: #f8f7ff !important;
+}
+.delete-project {
+  font-size: 14px !important;
+  border-radius: 4px !important;
+  border: 1px solid #dd4b40 !important;
+  background-color: rgba(221, 75, 64, 0.2) !important;
+  color: #dd4b40 !important;
+}
+.submit-btn {
+  width: 320px;
+  height: 44px;
+  background: #0087ff;
+  border-radius: 4px !important;
+}
+.disabled-btn {
+  border-color: #d4d4d4;
+  background-color: #fff;
+  color: #d4d4d4;
+  opacity: 0.9;
+  font-size: 17px;
+}
+.table-btn {
+  background-color: white !important;
+  border: 1px solid #1f97ff !important;
+  color: #1f97ff !important;
+  width: 140px !important;
+  font-size: 11px !important;
+}
+.model-btn {
+  color: #495968 !important;
+  border: 1px solid #495968 !important;
+  font-weight: 600 !important;
+  border-radius: 4px !important;
+  box-sizing: border-box !important;
+}
+.disable-btn {
+  border-color: #d4d4d4 !important;
+  background-color: #fff !important;
+  color: #d4d4d4 !important;
+}

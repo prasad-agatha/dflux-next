@@ -1,0 +1,200 @@
+body {
+  font-family: Inter !important;
+}
+h2 {
+  font-family: Inter !important;
+}
+h3 {
+  font-family: Inter !important;
+}
+h4 {
+  font-family: Inter !important;
+}
+h5 {
+  font-family: Inter !important;
+}
+h6 {
+  font-family: Inter !important;
+}
+p {
+  font-family: Inter !important;
+}
+.centered-text {
+  text-align: center;
+}
+.text-dark {
+  color: #333;
+}
+.text-white {
+  color: #fff;
+}
+.f-8 {
+  font-size: 8px !important;
+}
+.f-10 {
+  font-size: 10px !important;
+}
+.f-11 {
+  font-size: 10.5px !important;
+}
+.f-12 {
+  font-size: 12px !important;
+}
+.f-13 {
+  font-size: 13px !important;
+}
+.f-14 {
+  font-size: 14px !important;
+}
+.f-16 {
+  font-size: 16px !important;
+}
+.f-17 {
+  font-size: 17px !important;
+}
+.f-18 {
+  font-size: 18px !important;
+}
+.f-20 {
+  font-size: 20px !important;
+}
+.f-24 {
+  font-size: 24px !important;
+}
+.f-32 {
+  font-size: 32px !important;
+}
+.ls {
+  letter-spacing: 0.1px !important;
+}
+.fw-600 {
+  font-weight: 600 !important;
+}
+.bold {
+  font-weight: bold;
+}
+.profile-font {
+  background-color: #f1f1f1 !important;
+  font-size: 15px !important;
+  color: #263238 !important;
+}
+.required {
+  background-color: #ffe0e0;
+  color: #cd0000;
+  border-radius: 10px;
+  position: absolute;
+}
+.project-description {
+  font-family: Inter !important;
+  font-style: normal;
+  opacity: 0.5;
+  font-size: 14px;
+}
+.detail-title {
+  margin-bottom: 0px;
+  font-family: Inter !important;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  opacity: 0.8;
+}
+.mini-heading-1 {
+  font-family: Inter !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 35px;
+  color: #495968;
+}
+.mini-heading-2 {
+  font-family: Inter !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  color: #495968;
+}
+.last-updated {
+  margin-bottom: 0px;
+  font-family: Inter !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  color: #919eab;
+}
+.add-user {
+  font-family: Inter;
+  color: $dblue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  // line-height: 23px;
+  margin-bottom: 0;
+}
+.chart-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 125%;
+}
+.table-title {
+  color: inherit;
+  :hover {
+    text-decoration: none;
+  }
+}
+// index page - login
+
+.link-text p:hover {
+  text-decoration: none !important;
+  // text-decoration-color: $dblue !important;
+  text-underline-offset: 1px !important;
+  color: $dblue !important;
+}
+.text-i {
+  letter-spacing: -0.009em !important;
+  color: #586e87;
+}
+.forgot-text-i {
+  letter-spacing: 0.1px;
+  color: $white;
+  cursor: pointer;
+}
+.forgot-text-i:hover {
+  text-decoration: underline;
+}
+.forgot-text-i1 {
+  letter-spacing: 0.1px;
+  color: #282828;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+// connections
+
+.name-c {
+  color: $d49grey;
+  letter-spacing: -0.02em !important;
+}
+.last-c {
+  color: $d49grey;
+  letter-spacing: -0.02em !important;
+  opacity: 0.9;
+  margin-right: 10px !important;
+}
+.date-c {
+  color: #000000;
+  opacity: 0.6;
+  letter-spacing: 0.1px !important;
+}
+.acc-header {
+  color: #52575c !important;
+  opacity: 0.9 !important;
+  font-weight: 600 !important;
+  margin-bottom: 4px !important;
+  text-align: left !important;
+}

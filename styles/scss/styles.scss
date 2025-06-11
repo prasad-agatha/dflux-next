@@ -1,0 +1,144 @@
+.p-r {
+  position: relative;
+}
+.p-a {
+  position: absolute;
+}
+.title {
+  font-size: 24px !important;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.1px !important;
+  color: $dblue;
+}
+.noneaccess {
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.1px !important;
+  color: $dblue;
+}
+.accordian-style {
+  margin-top: 8px !important;
+  margin-bottom: 15px !important;
+  width: 32% !important;
+  height: 701px !important;
+  border-radius: 12px !important;
+  overflow-y: auto !important;
+}
+.acc-div {
+  border-radius: 12px !important;
+  box-sizing: border-box !important;
+  font-weight: 600 !important;
+  color: #3b3e40 !important;
+}
+.select-div {
+  border-radius: 2px !important;
+  border: 1px solid #ced4da !important;
+}
+.progress-div {
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 50% !important;
+}
+.progress-barr {
+  width: 260px !important;
+  height: 4px !important;
+  border-radius: 0px !important;
+  margin-top: 4px !important;
+}
+.progress-baar {
+  width: 130px !important;
+  height: 1px !important;
+  border-radius: 0px !important;
+  margin-top: 4px !important;
+}
+.shimmer-thumbnail {
+  min-width: 20px !important;
+}
+.rc-slider-track {
+  background-color: #0076ff !important;
+}
+.rc-slider-handle {
+  border: solid 2px #0076ff !important;
+}
+.rc-slider-handle:active {
+  border-color: #0076ff !important;
+  box-shadow: 0 0 5px #0076ff !important;
+}
+.width-max {
+  width: max-content !important;
+}
+.bg-img {
+  display: flex;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  overflow: auto;
+}
+.div-bg {
+  padding: 1rem 2rem;
+  background: #1d212b;
+  max-width: 100%;
+}
+.text-bg {
+  color: #ff0000;
+  background: #010101;
+  padding: 1rem 0;
+  width: 100%;
+}
+
+// Radio button --- Invite members and edit permissions
+.access-radio {
+  position: relative;
+  padding-left: 35px;
+  margin-top: 10px;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.access-radio input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+.write {
+  margin-left: 62px;
+}
+
+.access-radio:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+.access-radio input:checked ~ .checkmark {
+  background-color: $dblue;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.access-radio input:checked ~ .checkmark:after {
+  display: block;
+}
+.access-radio .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}

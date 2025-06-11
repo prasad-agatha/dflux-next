@@ -1,0 +1,350 @@
+// Dashboard Project Page CSS
+
+.solid-line {
+  border: 0px !important;
+  border-top: 3px solid #0795ff !important;
+  width: 130px;
+  opacity: 1;
+}
+
+.custom-card {
+  background-color: #f7f9fc;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  .project-name {
+    color: #27272e;
+    font-size: 16px;
+  }
+}
+
+.project-letter-bg {
+  height: 120px;
+  width: 120px;
+  padding: 30px;
+  border-radius: 50%;
+  font-size: 32px;
+  background-color: #495968;
+  color: white;
+}
+
+.custom-card:hover {
+  background-color: #e4f0ff;
+
+  .project-letter-bg {
+    background-color: #0795ff;
+  }
+
+  .project-name {
+    color: #27272e;
+    font-size: 16px;
+  }
+}
+.getting-started-card {
+  background-color: #f9fdff;
+  border: 0.6px solid #cacaca;
+  box-sizing: border-box;
+  border-radius: 9px;
+
+  .project-name {
+    color: #27272e;
+    font-size: 16px;
+  }
+}
+// .getting-started-card:hover {
+//   background-color: #e4f0ff;
+
+//   .project-letter-bg {
+//     background-color: #0795ff;
+//   }
+//   .project-name {
+//     color: #27272e;
+//     font-size: 16px;
+//   }
+// }
+.connection-card {
+  background-color: #f7f9fc;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  .project-name {
+    color: #27272e;
+    font-size: 16px;
+  }
+}
+.connection-card:hover {
+  background-color: #e4f0ff;
+
+  .project-letter-bg {
+    background-color: #0795ff;
+  }
+  .project-name {
+    color: #27272e;
+    font-size: 16px;
+  }
+}
+.link {
+  color: black;
+  font-size: 16px;
+}
+.link:hover {
+  font-weight: bold;
+}
+.close ::before {
+  content: "x";
+  visibility: visible;
+  color: "black";
+  font-weight: bolder;
+  font-size: large;
+}
+
+.sr-only::before {
+  visibility: hidden;
+}
+
+.close {
+  /*background-color: red; */
+  visibility: hidden;
+  position: absolute;
+  right: 32px;
+  top: 12px;
+  width: 32px;
+  height: 32px;
+  background-color: rgb(247, 12, 12, 0.5);
+}
+input {
+  accent-color: #0076ff !important;
+}
+.dashboard-grid-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 400px;
+  grid-template-rows: 1fr;
+  grid-template-areas: "dashboard-main dashboard-right-sidebar";
+  height: 90.6vh;
+  overflow: hidden;
+}
+
+.dashboard-right-sidebar {
+  grid-area: dashboard-right-sidebar;
+  box-sizing: border-box;
+  background: white;
+  overflow-y: auto !important;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.18);
+}
+
+.dashboard-grid-main {
+  grid-area: dashboard-main;
+  box-sizing: border-box;
+  background: #f7f9fa;
+  overflow-y: auto !important;
+}
+
+.dashboard-grid-wrapper-full {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "dashboard-main-full";
+  height: 90.6vh;
+  overflow: hidden;
+}
+
+.dashboard-grid-main-full {
+  grid-area: dashboard-main-full;
+  box-sizing: border-box;
+  background: #f7f9fa;
+  overflow-y: auto !important;
+}
+
+.sidebar {
+  position: absolute;
+  left: -200px;
+  height: 100%;
+  width: 200px;
+  transition: left 0.3s ease-in-out;
+  background-color: white;
+}
+
+.sidebar-toggle {
+  position: absolute;
+  right: -20px;
+  height: 24px;
+  width: 48px;
+  z-index: 1;
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  transition: left 0.3s ease-in-out;
+  background-color: lightgray;
+}
+
+.sidebar.open {
+  left: 0;
+}
+
+.content.open {
+  left: 200px;
+}
+
+.chart-layout {
+  display: grid;
+  // border: 1px solid red;
+  grid-template-columns: 1fr 16px minmax(300px, 0.4fr);
+  grid-template-rows: 1fr;
+  grid-template-areas: "chart-left chart-middle chart-right";
+  height: 90.6vh;
+  // gap: 3px;
+  // border: 1px solid #0076ff;
+  overflow: hidden;
+}
+.chart-layout-left {
+  display: grid;
+  grid-template-columns: 1fr 16px;
+  grid-template-rows: 1fr;
+  grid-template-areas: "chart-left chart-middle";
+  height: 90.6vh;
+  // gap: 3px;
+  // border: 1px solid #0076ff;
+  overflow: hidden;
+}
+
+.chart-right {
+  grid-area: chart-right;
+  box-sizing: border-box;
+  background: white;
+  // border: 1px solid green;
+  overflow-y: auto !important;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.18);
+}
+.modal-90w {
+  min-width: 95%;
+}
+// .myCanvas {
+//   display: flex !important;
+// }
+.chartjs-render-monitor {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.chart-middle {
+  grid-area: chart-middle;
+  display: flex;
+  align-items: center;
+  transform: rotate(180deg);
+}
+.chart-left {
+  grid-area: chart-left;
+  // border: 1px solid green !important;
+  box-sizing: border-box;
+  // background: #f7f9fa;
+  // border: 1px solid red;
+  overflow-y: auto !important;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  opacity: 1;
+}
+
+.dashboard-header {
+  background-color: #ffffff;
+  .header-input::placeholder {
+    font-weight: bolder;
+  }
+}
+.header-home {
+  width: 80% !important;
+}
+.chart-card {
+  height: 200px !important;
+}
+
+.query-border {
+  border: 0.5px solid #f4f4f4;
+}
+.query-border-1 {
+  border: 0.5px solid #dbdde0;
+}
+
+.stepper-wrapper {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.stepper-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  color: #919eab;
+
+  @media (max-width: 768px) {
+    font-size: 12px;
+  }
+}
+
+.stepper-item::before {
+  position: absolute;
+  content: "";
+  border-bottom: 2px solid rgb(179, 214, 255);
+  width: 100%;
+  top: 4px;
+  left: -50%;
+  z-index: 2;
+}
+
+.stepper-item::after {
+  position: absolute;
+  content: "";
+  border-bottom: 2px solid rgb(179, 214, 255);
+  width: 100%;
+  top: 4px;
+  left: 50%;
+  z-index: 2;
+}
+
+.stepper-item .step-counter {
+  position: relative;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgb(179, 214, 255);
+  margin-bottom: 6px;
+}
+
+.stepper-item.completed {
+  color: black;
+}
+
+.stepper-item.completed .step-counter {
+  background-color: $dblue;
+}
+
+.stepper-item.completed::before {
+  position: absolute;
+  content: "";
+  border-bottom: 2px solid $dblue;
+  width: 100%;
+  top: 4px;
+  left: -50%;
+  z-index: 3;
+}
+
+.stepper-item:first-child::before {
+  content: none;
+}
+.stepper-item:last-child::after {
+  content: none;
+}
+
+.card-border {
+  border: 0.5px solid #919eab;
+  width: 35%;
+  height: 100%;
+}

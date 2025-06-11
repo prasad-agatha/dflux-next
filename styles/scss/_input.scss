@@ -1,0 +1,197 @@
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  opacity: 1;
+}
+.input-i {
+  width: 320px !important;
+  height: 44px !important;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  margin-bottom: 12px;
+  padding-left: 14px;
+  background-color: $white;
+  color: "black";
+}
+
+.signup-i {
+  width: 320px !important;
+  height: 44px !important;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px !important;
+  margin-bottom: 12px;
+  padding-left: 14px;
+  background-color: $white !important;
+  color: "black";
+}
+
+.signup-i::placeholder {
+  color: #7a828a !important;
+  opacity: 0.5 !important;
+}
+
+.search::placeholder {
+  color: #7a828a !important;
+  opacity: 0.5 !important;
+  font-size: 13px;
+}
+
+.login-i {
+  width: 320px !important;
+  height: 44px !important;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px !important;
+  margin-bottom: 12px;
+  padding-left: 14px;
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  color: "#FFFFFF" !important;
+}
+.login-i::placeholder {
+  color: white !important;
+  opacity: 0.5 !important;
+}
+
+.text-input::placeholder {
+  font-size: 12px;
+  color: black !important;
+}
+
+.input-create-project {
+  background-color: #fff !important;
+  border: 1px solid #ececec !important;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.sql-prompt {
+  background-color: #fff !important;
+  border: 1px solid #ececec !important;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.sql-prompt::placeholder {
+  color: #21252980 !important;
+}
+.input-create-project1 {
+  background-color: #fff !important;
+  border: 1px solid #ececec !important;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.input-create-project1::placeholder {
+  font-size: 14px;
+}
+.name-input-q {
+  color: $d49grey;
+  letter-spacing: 0.1px;
+  border: 0.5px solid #dbdde0;
+  background-color: white;
+  border-radius: 4px;
+  padding-left: 5px;
+}
+.input-label-dc-form {
+  letter-spacing: 0.002em !important;
+  // color: #a0a4a8 !important;
+  margin-bottom: 0;
+}
+.input-dc-form {
+  background-color: $white;
+  margin: 5px;
+  margin-left: 0px;
+  padding: 5px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  letter-spacing: 0.01em;
+  color: #52575c;
+  border: 1px solid #ececec;
+}
+.modelling-name {
+  width: 200px !important;
+  border: 0px !important;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 600 !important;
+  color: "#3B3E40";
+  line-height: 13px;
+  letter-spacing: 0.1px;
+}
+.modelling-cards {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  color: #313a4f;
+  border-radius: 4px !important;
+  border: 1px dashed #c9cbd6;
+  font-size: 18px;
+  font-weight: 600 !important;
+  letter-spacing: 0.1px;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  cursor: pointer;
+}
+.modelling-cards.active {
+  border: 1px solid #0076ff;
+  color: #0076ff;
+  box-shadow: 6px 6px 17px rgba(121, 154, 218, 0.25);
+}
+.icon,
+.error-icon {
+  position: relative;
+  float: right;
+  bottom: 35px;
+  right: 10px;
+  background: transparent;
+  color: #ccd5ae;
+}
+.error-icon {
+  right: 35px;
+}
+div.error-message {
+  width: 320px;
+  background: #ffe0e0;
+  color: #cd0000;
+  border-radius: 5px;
+  padding: 3px 9px;
+}
+.properties-input {
+  border: 0.5px solid rgba(79, 79, 79, 0.45) !important;
+  width: 150px !important;
+  border-radius: 4px !important;
+}
+.tabs-input {
+  // border: 0.5px solid #4e4e4e !important;
+  width: 250px !important;
+  border-radius: 4px !important;
+}
+.axies-title {
+  background: #f7f7f7;
+  border: 0.5px solid rgba(79, 79, 79, 0.45);
+  border-radius: 4px;
+  height: 30px;
+}
+.axies-title ::placeholder {
+  font-size: 12px;
+}
+.axies-title-input {
+  border: 0.5px solid rgba(79, 79, 79, 0.45);
+  border-radius: 4px;
+  height: 30px;
+}
+.axies-title-input::placeholder {
+  font-size: 10px;
+}
+.cv-input {
+  color: #ced1d3;
+  border: 1px solid #dbdde0;
+  border-radius: 4px;
+  width: 102px;
+  outline: none !important;
+}
+.cv-input::-webkit-outer-spin-button,
+.cv-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.cv-input::placeholder {
+  color: #ced1d3;
+}

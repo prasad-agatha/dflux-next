@@ -1,0 +1,231 @@
+@import "./scss/variables";
+@import "./scss/grids";
+@import "./scss/buttons";
+@import "./scss/typography";
+@import "./scss/menu";
+@import "./scss/container";
+@import "./scss/snippets";
+@import "./scss/input";
+@import "./scss/styles";
+// toaster
+@import "./scss/toastify";
+
+// dashboard
+@import "./scss/_dashboard.scss";
+
+// bootstrap
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+@import "./scss/_bootstrap_override.scss";
+
+// external css
+@import "react-toastify/dist/ReactToastify.css";
+
+// font
+// @import url("https://fonts.googleapis.com/css?family=Source Sans Pro");
+// @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+// @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+// @font-face {
+//   font-family: "Source Sans Pro";
+//   src: local("Source Sans Pro") url("https://fonts.googleapis.com/css?family=Source Sans Pro")
+//     format("truetype");
+// }
+
+.tooltip-inner {
+  font-size: 0.625rem !important;
+  font-style: normal !important;
+}
+/*--------------------- Tooltip ---------------------*/
+.toltip {
+  position: relative !important;
+  opacity: 1 !important;
+  z-index: 1 !important;
+}
+
+.toltip .toltip-text {
+  visibility: hidden;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 8%;
+  margin-left: 0px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 9px;
+}
+
+.toltip:hover .toltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+/*--------------------- Tooltip ---------------------*/
+.toltip-bottom {
+  position: relative !important;
+  opacity: 1 !important;
+  z-index: 1 !important;
+}
+
+.toltip-bottom .toltip-text {
+  visibility: hidden;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: -88%;
+  left: -55%;
+  margin-left: 0px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 9px;
+}
+.toltip-bottom:hover .toltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+html,
+body,
+#__next {
+  // margin: 0;
+  // padding: 0;
+  // height: 100vh;
+  font-family: Inter !important;
+  // font-style: normal;
+}
+
+.hamburger:hover {
+  background-color: #dee2e6;
+  border-radius: 50%;
+}
+
+.testsvg #path1 {
+  fill: red;
+  stroke: red;
+}
+.testsvg:hover {
+  fill: yellow;
+}
+.chart-filters {
+  width: 140px !important;
+  height: 28px !important;
+}
+.chart-slider {
+  width: 140px !important;
+  height: 10px !important;
+}
+
+// treemap legends
+#treelegend {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 46px;
+}
+
+.treelegend-item {
+  // flex: 20%;
+  margin-bottom: 0px;
+  margin-right: 15px;
+}
+
+.treelegend-item--header {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0 0 5px;
+  font-size: 10px;
+}
+
+.treelegend-item--color {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  vertical-align: middle;
+}
+// packed bubble legends
+#pblegend {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 46px;
+}
+
+.pblegend-item {
+  // flex: 20%;
+  margin-bottom: 0px;
+  margin-right: 15px;
+}
+
+.pblegend-item--header {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0 0 5px;
+  font-size: 10px;
+}
+
+.pblegend-item--color {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  vertical-align: middle;
+}
+// radial chart legends
+#radiallegend {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 46px;
+  // margin-top: -10px;
+}
+
+.radiallegend-item {
+  // flex: 50%;
+  margin-bottom: 0px;
+  margin-right: 15px;
+}
+
+.radiallegend-item--header {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0 0 5px;
+  font-size: 10px;
+}
+
+.radiallegend-item--color {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  vertical-align: middle;
+}
+// radial chart legends
+#wafflelegend {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 46px;
+  // margin-top: -10px;
+}
+
+.wafflelegend-item {
+  // flex: 50%;
+  margin-bottom: 0px;
+  margin-right: 15px;
+}
+
+.wafflelegend-item--header {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0 0 5px;
+  font-size: 10px;
+}
+
+.wafflelegend-item--color {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  vertical-align: middle;
+}

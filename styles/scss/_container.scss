@@ -1,0 +1,149 @@
+// index page -login
+.main-container-i {
+  width: 100vw;
+  height: 100vh;
+}
+.login-options-container-i {
+  display: flex;
+  flex-direction: row;
+  width: 320px;
+  margin-top: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+// projects page
+.projects-container-p {
+  flex: 1;
+  // height: 70vh;
+  width: 100%;
+  align-self: center;
+  background-color: $white;
+}
+.paper-container-c {
+  display: flex;
+  flex-direction: column;
+  box-shadow: none !important;
+  margin: 5px;
+  width: 300px;
+  min-height: 160px;
+  flex-wrap: nowrap;
+  padding: 16px;
+  cursor: pointer;
+  border: 0 !important;
+  box-shadow: rgb(0 0 0 / 6%) 0px 16px 134px !important;
+}
+.paper-container-c:hover {
+  background-color: #e4f0ff;
+}
+.engine-container-c {
+  // display: flex;
+  // flex: 1;
+  width: 130px;
+  // height: 50px;
+  margin-left: 3px;
+  margin-right: 3px;
+  cursor: pointer;
+  padding: 8px;
+  // box-shadow: 0px 3px 5px 0 rgb(0 0 0 / 10%), 0 6px 6px 0 rgb(0 0 0 / 10%);
+}
+.paper-container-dbd {
+  border-radius: 5px;
+  border: 1px solid #c6d0db;
+  // padding: 10px;
+  box-shadow: none !important;
+  background-color: $dgrey !important;
+}
+
+.dashed-container {
+  min-width: 324px !important;
+  min-height: 80px;
+  border: 2px dashed #1f97ff !important;
+  background: rgba(0, 118, 255, 0.05) !important;
+}
+.card-container {
+  border: 1px solid #f3f3f3;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.03);
+  background: #ffffff;
+  border-radius: 12px;
+  min-height: 500px;
+}
+.password-container {
+  background: #ffffff;
+  border-radius: 4px !important;
+  width: 500px;
+  min-width: 500px !important;
+  min-height: 320px;
+  height: 320px;
+  box-shadow: 0px 0px 20px rgba(209, 209, 209, 0.25);
+}
+.start-card {
+  width: 280px;
+  height: 250px;
+  background-color: #f9fdff;
+  border: 0.6px solid #cacaca;
+}
+.model-card {
+  margin-top: 15px !important;
+  margin-bottom: 15px !important;
+  width: 95vw !important;
+  padding: 24px !important;
+  box-shadow: 1px 1px 19px 1px rgba(151, 151, 151, 0.25) !important;
+  border-radius: 12px !important;
+}
+.model-div {
+  max-height: 40vh !important;
+  overflow-y: scroll !important;
+  border-top: 3px solid white !important;
+}
+.processing-card {
+  margin-top: 5px !important;
+  width: 64% !important;
+  padding: 24px !important;
+  box-shadow: 1px 1px 19px 1px rgba(151, 151, 151, 0.25) !important;
+  border-radius: 12px !important;
+  margin-bottom: 15px !important;
+}
+.field-card {
+  border: 2px dashed #f0f0f0 !important;
+  height: 30% !important;
+  overflow-y: auto !important;
+  margin: 4px !important;
+  border-radius: 2px !important;
+}
+.engines-card {
+  width: 164px !important;
+  min-width: 164px !important;
+  min-height: 64px !important;
+  background: #fafafa !important;
+  box-sizing: border-box !important;
+}
+.excel-card {
+  width: 129px !important;
+  min-width: 129px !important;
+  min-height: 50px !important;
+  background: #fafafa !important;
+  border-radius: 2.5px !important;
+  box-sizing: border-box !important;
+  font-weight: bold !important;
+}
+.chart-card {
+  margin: 7px !important;
+  width: 282px !important;
+  min-width: 282px !important;
+  min-height: 213px !important;
+  border-radius: 4px !important;
+}
+.datasource-card {
+  margin: 5px !important;
+  width: 300px !important;
+  min-height: 160px !important;
+}
+.chart-crd {
+  height: 200px !important;
+  width: 294px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

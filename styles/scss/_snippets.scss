@@ -1,0 +1,64 @@
+// user custom snippets
+.d-flex {
+  display: flex !important;
+}
+.df1 {
+  display: flex;
+  flex: 1;
+}
+.dblue {
+  color: $dblue !important;
+}
+.gray {
+  color: $gray !important;
+}
+.black {
+  color: #000 !important;
+}
+.dgrey {
+  color: $grey !important;
+}
+.bgdblue {
+  background-color: $dblue !important;
+}
+.bgdarkblue {
+  background-color: #0c2744 !important;
+}
+.dblue-border {
+  background: rgba(31, 151, 255, 0.1) !important;
+  border: 1px dashed #1f97ff !important;
+}
+.gray-border {
+  background: #fff !important;
+  border: 1px dashed #d4d4d4 !important;
+}
+.ml-15 {
+  margin-left: -15px !important;
+}
+.ml-25 {
+  margin-left: -25px !important;
+}
+.box-flex {
+  flex-grow: 2;
+}
+.text-capitalize {
+  text-transform: capitalize;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.color-inherit {
+  color: inherit;
+}
+.overflow-whitespace {
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+}
+.dropdown-menu {
+  padding: 0 !important;
+}
+@media (min-width: 576px) {
+  .modal-sm {
+    max-width: 400px !important;
+  }
+}
